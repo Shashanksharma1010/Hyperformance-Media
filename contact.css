@@ -49,6 +49,7 @@
     .contact-form label {
       font-weight: 600;
       margin-bottom: 0.3rem;
+      color: white;
     }
 
     .contact-form input,
