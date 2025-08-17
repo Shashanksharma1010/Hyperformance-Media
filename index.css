@@ -1049,7 +1049,7 @@ nav ul li a:hover {
     background: var(--BackgroundShade1);
     border-radius: 5px;
     color:var(--shade);
-    padding: 2rem;
+    padding: 10px;
     max-width: 500px;
 }
 
@@ -1099,7 +1099,7 @@ nav ul li a:hover {
 .process-wrapper .process-card {
 	position: relative;
 	background:var(--mainColor);
-	border-radius: 20px;
+	border-radius: 50px;
 	z-index:5;
 }
 
@@ -1164,7 +1164,7 @@ nav ul li a:hover {
 
 @keyframes shake {
 	0% {
-		transform: rotate(-15deg)
+		transform: rotate(-5deg)
 	}
 
 	25% {
@@ -1172,11 +1172,11 @@ nav ul li a:hover {
 	}
 
 	50% {
-		transform: rotate(15deg)
+		transform: rotate(5deg)
 	}
 
 	75% {
-		transform: rotate(-15deg)
+		transform: rotate(-5deg)
 	}
 
 	100% {
