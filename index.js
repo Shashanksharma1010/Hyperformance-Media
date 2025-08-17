@@ -10,6 +10,7 @@ const root_theme = document.querySelector(':root');
 const theme_switcher = document.getElementById('checkbox-theme-switcher');
 const menu = document.querySelector('#mobile-nav-menu');
 const hamburger = document.querySelector('.hamburger');
+const link = document.querySelectorAll('.link');
 
 // Theme Switcher Logic
 theme_switcher.addEventListener('click', (e) => {
@@ -47,3 +48,14 @@ hamburger.addEventListener('click', () => {
         hamburger.querySelector('img').src = 'images/menu.png';
     }  
 })
+
+
+link.forEach((e) => {
+    e.addEventListener('click', () => {
+        console.log(menu);
+        menu.classList.remove('show');
+        menu.classList.add('hide');
+        hamburger.querySelector('img').src = 'images/menu.png'; 
+    })
+})
+
